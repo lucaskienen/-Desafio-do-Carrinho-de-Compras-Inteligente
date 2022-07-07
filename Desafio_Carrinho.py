@@ -2,8 +2,7 @@ def carrinho():
     continuar = 1
 
     while continuar:
-        continuar = int(
-            input("comprar mais produtos? 1- Sim | 2- Finalizar Compra "))
+        continuar = int(input("comprar mais produtos? 1- Sim | 2- Finalizar Compra "))
         if continuar == 1:
             inserir()
         elif continuar == 2:
@@ -13,6 +12,10 @@ def carrinho():
 
 
 def inserir():
+    if len(produtos) >= 10:
+        print("Número máximo de 10 itens")
+        finalizar()
+
     nome = input("Nome do produto: ")
     valor = int(input("Valor: "))
 
@@ -72,3 +75,4 @@ def finalizar():
 produtos = {}
 inserir()
 carrinho()
+
