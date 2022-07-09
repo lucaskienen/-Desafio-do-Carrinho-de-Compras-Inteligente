@@ -31,7 +31,7 @@ def finalizar():
     for nome in produtos.keys():
         total = total + produtos[nome]
         print(nome)
-    print(f"Valor total : \n {total}")
+    print(f"Valor total : \n{total}")
 
     if total >= 100:
         contador = 0
@@ -39,9 +39,9 @@ def finalizar():
             contador = contador + 1
             total = total - 100
         if contador == 1:
-            print(f"{contador} nota de 100")
+            print(f"{contador} nota de 100 reais")
         else:
-            print(f"{contador} notas de 100")
+            print(f"{contador} notas de 100 reais")
 
     if total >= 50:
         contador = 0
@@ -49,9 +49,9 @@ def finalizar():
             contador = contador + 1
             total = total - 50
         if contador == 1:
-            print(f"{contador} nota de 50")
+            print(f"{contador} nota de 50 reais")
         else:
-            print(f"{contador} notas de 50")
+            print(f"{contador} notas de 50 reais")
 
     if total >= 20:
         contador = 0
@@ -59,9 +59,9 @@ def finalizar():
             contador = contador + 1
             total = total - 20
         if contador == 1:
-            print(f"{contador} nota de 20")
+            print(f"{contador} nota de 20 reais")
         else:
-            print(f"{contador} notas de 20")
+            print(f"{contador} notas de 20 reais")
 
     if total >= 10:
         contador = 0
@@ -69,9 +69,9 @@ def finalizar():
             contador = contador + 1
             total = total - 10
         if contador == 1:
-            print(f"{contador} nota de 10")
+            print(f"{contador} nota de 10 reais")
         else:
-            print(f"{contador} notas de 10")
+            print(f"{contador} notas de 10 reais")
 
     if total >= 5:
         contador = 0
@@ -79,9 +79,9 @@ def finalizar():
             contador = contador + 1
             total = total - 5
         if contador == 1:
-            print(f"{contador} nota de 5")
+            print(f"{contador} nota de 5 reais")
         else:
-            print(f"{contador} notas de 5")
+            print(f"{contador} notas de 5 reais")
 
     if total >= 2:
         contador = 0
@@ -89,9 +89,9 @@ def finalizar():
             contador = contador + 1
             total = total - 2
         if contador == 1:
-            print(f"{contador} nota de 2")
+            print(f"{contador} nota de 2 reais")
         else:
-            print(f"{contador} notas de 2")
+            print(f"{contador} notas de 2 reais")
 
     if total >= 1:
         contador = 0
@@ -99,9 +99,9 @@ def finalizar():
             contador = contador + 1
             total = total - 1
             if contador == 1:
-                print(f"{contador} nota de 1")
+                print(f"{contador} nota de 1 real")
             else:
-                print(f"{contador} notas de 1")
+                print(f"{contador} notas de 1 real")
 
     exit()
 
