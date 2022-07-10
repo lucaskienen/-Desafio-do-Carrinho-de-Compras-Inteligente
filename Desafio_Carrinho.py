@@ -31,7 +31,7 @@ def finalizar():
     for nome in produtos.keys():
         total = total + produtos[nome]
         print(nome)
-    print(f"Valor total : \n{total}")
+    print(f"Valor total : \n{total}\nDeve ser no mínimo em:")
 
     if total >= 100:
         contador = 0
